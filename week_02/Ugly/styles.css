@@ -1,9 +1,8 @@
 /*general page styles*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-image: url("lol.jpg");
+  background-size: cover;
 }
 h2 {
     color: #333;

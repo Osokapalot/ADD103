@@ -1,10 +1,23 @@
 /*general page styles*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("lol.jpg");
+    background-image: url("gg.jpg");  /* found a ugly color in google*/
   background-size: cover;
+  font-family:fantasy;
 }
-h2 {
-    color: #333;
+h1 {
+    color: rgba(238, 255, 0, 0.336);;
     text-align: center;
+}
+h2 { /* color is transparent so it hard to read on the background */
+    color: rgba(0, 217, 255, 0.336);
+}
+h3 {
+    color: rgb(0, 0, 0);
+}
+blockquote {
+      background-color: rgba(247, 0, 115, 0.616);
+    border: 20px solid rgba(128, 23, 12, 0.493); /* big ugly border color */
+    padding: 20px;
+    margin: 30px;
 }

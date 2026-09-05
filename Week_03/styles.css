@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+    line-height: 2;
+}
+
+h1{
+    font-family: Arial, helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+}
+.img-center{
+    width:40%;
+    height :auto;
+    display: block;
+    margin: 20px auto;
+}
+.play{
+    font-family: Arial, helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

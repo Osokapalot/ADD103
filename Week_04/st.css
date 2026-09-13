@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    
+}
+h1{
+    color: red;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+ul{
+    color:red;
+    list-style-type: circle;
+    
+
+}
+
+ul>li>ol{
+    color: blue;
+}
+ol>li>ul{
+    color: red;
+}

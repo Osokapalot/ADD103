@@ -3,12 +3,11 @@
 }
 
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-  background-color: #f4f1ea;
- color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #333;
 }
-
 
 .hero {
     display: flex;
@@ -40,10 +39,9 @@ font-family: Arial, sans-serif;
     border-radius: 20px;
 }
 
-
 .photo-wall {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 15px;
     padding: 40px 8%;
 }
@@ -59,7 +57,6 @@ font-family: Arial, sans-serif;
 .photo-wall img:hover {
     transform: scale(1.03);
 }
-
 
 footer {
     text-align: center;
@@ -77,8 +74,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-@media (max-width: 700px) {
+@media (max-width: 599px) {
     .hero {
         flex-direction: column;
         text-align: center;
@@ -86,9 +82,29 @@ footer a:hover {
 
     .hero img {
         width: 100%;
+        max-width: 400px;
     }
 
     .photo-wall {
         grid-template-columns: 1fr;
     }
 }
+
+@media (min-width: 600px) {
+    .photo-wall {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .photo-wall {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .photo-wall {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+

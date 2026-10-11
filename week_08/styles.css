@@ -1,5 +1,5 @@
 
-/* Basic page setup */
+
 * {
   box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ img {
   height: auto;
 }
 
-/* Header and Flexbox navigation */
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -74,7 +74,7 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
-/* Hero section */
+
 .hero {
   padding: 60px 20px;
   text-align: center;
@@ -117,7 +117,7 @@ a:focus-visible {
   background-color: var(--dark);
 }
 
-/* Main content */
+
 .content-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -133,7 +133,7 @@ a:focus-visible {
   margin-bottom: 24px;
 }
 
-/* CSS Grid: one column by default for mobile */
+
 .photo-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -171,7 +171,7 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
-/* About page */
+
 .about-layout {
   display: grid;
   grid-template-columns: 1fr;
@@ -188,7 +188,7 @@ a:focus-visible {
   border-radius: 12px;
 }
 
-/* Footer */
+
 .site-footer {
   padding: 20px;
   text-align: center;
@@ -196,7 +196,7 @@ a:focus-visible {
   color: var(--white);
 }
 
-/* Tablet and desktop layouts */
+
 @media (min-width: 768px) {
   .site-header {
     flex-direction: row;
@@ -227,7 +227,7 @@ a:focus-visible {
   }
 }
 
-/* Respect reduced-motion preferences */
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

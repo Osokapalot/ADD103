@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wild Earth | Wildlife Safari & Ocean Life</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">Wild Earth</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <picture class="hero-picture">
+                <source
+                    media="(max-width: 600px)"
+                    srcset="
+                        ../images/lion-480.jpg 480w,
+                        ../images/lion-800.jpg 800w,
+                        ../images/lion-1200.jpg 1200w
+                    "
+                    sizes="100vw">
+
+                <img
+                    src="../images/savanna-1200.jpg"
+                    srcset="
+                        ../images/savanna-480.jpg 480w,
+                        ../images/savanna-800.jpg 800w,
+                        ../images/savanna-1200.jpg 1200w
+                    "
+                    sizes="100vw"
+                    alt="Elephants walking across the African savanna at sunset">
+            </picture>
+
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <p class="eyebrow">WILDLIFE SAFARI & OCEAN LIFE</p>
+                    <h1>Explore the Wild</h1>
+                    <p>
+                        Discover amazing animals, beautiful landscapes,
+                        and the wonders of our natural world.
+                    </p>
+                    <a class="button" href="#gallery">Explore Gallery</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section" id="gallery">
+            <p class="eyebrow dark">DISCOVER NATURE</p>
+            <h2>Wildlife Gallery</h2>
+            <p class="section-description">
+                From the African plains to the depths of the ocean,
+                explore the beauty of wildlife.
+            </p>
+
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <img
+                        src="../images/lion-800.jpg"
+                        alt="Close-up of a lion's face">
+                    <h3>Lions of Africa</h3>
+                    <p>Meet the powerful kings of the savanna.</p>
+                </article>
+
+                <article class="gallery-card">
+                    <img
+                        src="../images/elephant-800.jpg"
+                        alt="African elephant standing in the grass">
+                    <h3>Gentle Giants</h3>
+                    <p>Discover the amazing world of elephants.</p>
+                </article>
+
+                <article class="gallery-card">
+                    <img
+                        src="../images/whale-800.jpg"
+                        alt="Whale swimming underwater">
+                    <h3>Ocean Giants</h3>
+                    <p>Explore the mysterious world beneath the waves.</p>
+                </article>
+
+                <article class="gallery-card">
+                    <img
+                        src="../images/turtle-800.jpg"
+                        alt="Sea turtle swimming above a coral reef">
+                    <h3>Life Underwater</h3>
+                    <p>Discover sea turtles and their ocean home.</p>
+                </article>
+
+                <article class="gallery-card">
+                    <img
+                        src="../images/reef-800.jpg"
+                        alt="Colorful coral reef filled with tropical fish">
+                    <h3>Coral Reefs</h3>
+                    <p>Experience the colors of marine life.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <p class="eyebrow">OUR NATURAL WORLD</p>
+            <h2>Protect the Wild</h2>
+            <p>
+                Wildlife and natural habitats are important to our planet.
+                Learning about animals helps us understand why protecting
+                nature matters.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wild Earth. <a href="../../index.html">Home</a></p>
+    </footer>
+
+</body>
+</html>

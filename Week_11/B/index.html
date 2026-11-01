@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted Mansion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="tracking-in-expand">WELCOME TO THE HAUNTED MANSION</h1>
+        <p>Enter if you dare...</p>
+    </header>
+
+    <main>
+
+        <section class="haunted-card">
+
+            <h2>Meet the Spirits</h2>
+
+            <!-- BASIC: Rotate -->
+            <div class="ghost rotate-center">
+                <svg viewBox="0 0 120 130" width="120">
+                    <path d="M15 120 V60 A45 45 0 0 1 105 60 V120
+                    L85 105 L65 120 L45 105 L25 120 Z"
+                    fill="#ffffff"/>
+                    <circle cx="43" cy="55" r="6" fill="#222"/>
+                    <circle cx="77" cy="55" r="6" fill="#222"/>
+                    <ellipse cx="60" cy="76" rx="8" ry="11" fill="#222"/>
+                </svg>
+            </div>
+
+            <p class="ghost-caption">The Floating Ghost</p>
+
+            <!-- ENTRANCES: Slide in -->
+            <div class="bat slide-in-right">
+                <svg viewBox="0 0 150 100" width="140">
+                    <path d="M75 45 C45 5 20 10 5 0
+                    L20 55 L0 70 L55 65
+                    Q75 100 95 65 L150 70
+                    L130 55 L145 0
+                    C110 10 105 5 75 45Z"
+                    fill="#a78bfa"/>
+                    <circle cx="68" cy="45" r="4" fill="white"/>
+                    <circle cx="82" cy="45" r="4" fill="white"/>
+                </svg>
+            </div>
+
+            <p>The Creeping Bat</p>
+
+            <!-- EXITS: Fade out -->
+            <div class="phantom fade-out">
+                <svg viewBox="0 0 100 110" width="90">
+                    <path d="M10 100 V45 A40 40 0 0 1 90 45 V100
+                    L70 85 L50 100 L30 85 Z"
+                    fill="#a78bfa"/>
+                    <circle cx="35" cy="45" r="5"/>
+                    <circle cx="65" cy="45" r="5"/>
+                </svg>
+            </div>
+
+            <p>The Disappearing Phantom</p>
+
+        </section>
+
+        <section class="danger-section">
+            <h2>Warning: Haunted Territory!</h2>
+            <p>Something is watching you from the shadows.</p>
+
+           
+            <button class="heartbeat">DO NOT ENTER</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Haunted Mansion</p>
+        <a href="../../index.html">Home</a>
+    </footer>
+
+</body>
+</html>

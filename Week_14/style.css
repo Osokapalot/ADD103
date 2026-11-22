@@ -1,4 +1,4 @@
-/* Custom CSS: linked after Bootstrap in every HTML page */
+
 :root { --bg:#151a21; --panel:#222b36; --text:#f5f6f8; --muted:#c0c7d0; --gold:#f2b632; --border:#3b4653; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--text); font-family:Arial, Helvetica, sans-serif; line-height:1.6; }
